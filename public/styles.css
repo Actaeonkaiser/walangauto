@@ -1,10 +1,10 @@
 body {
      padding: 20px;
-     background: linear-gradient(320deg, #eb92be, #ffef78, #63c9b4);
+     background: linear-gradient(320deg, #fff75c, #5cffa8, #f75cff);
      font-family: 'Poppins', sans-serif;
 }
  .container {
-     background: linear-gradient(320deg, #eb92be, #ffef78, #63c9b4);
+     background: linear-gradient(320deg, #fc59ff, #d059ff, #7859ff);
      border-radius: 10px;
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
      padding: 20px;
@@ -12,10 +12,10 @@ body {
      margin-bottom: 20px;
 }
  h1 {
-     color: #343a40;
+     color: #59fffc;
 }
  label {
-     color: #495057;
+     color: #59fffc;
 }
  .centered-textarea {
      display: block;
@@ -29,12 +29,12 @@ body {
      resize: none;
 }
  .btn-primary {
-     background-color: #007bff;
-     border: 1px solid #007bff;
+     background: linear-gradient(320deg, #59ffd8, #5fff59, #5967ff);
+     border: 1px solid #000000;
 }
  .btn-primary:hover {
-     background-color: #0056b3;
-     border: 1px solid #0056b3;
+     background: linear-gradient(320deg, #59ff80, #ff5959, #f9ff59);
+     border: 1px solid #000000;
 }
  .success-message {
      color: green;
@@ -110,7 +110,7 @@ body {
   cursor: pointer;
   transition: background-color 0.3s ease, border-color 0.3s ease; 
   border-color: #ccc;
-  background: linear-gradient(320deg, #eb92be, #ffef78, #63c9b4);
+  background: linear-gradient(320deg, #59ff80, #ff5959, #f9ff59);
 }
 #listOfCommands, #listOfCommandsEvent, #prefixOfCommands, #adminOfCommands {
   border: none !important;
@@ -119,4 +119,3 @@ body {
 #listOfCommands:not(.modal), #listOfCommandsEvent:not(.modal), #prefixOfCommands:not(.modal), #adminOfCommands:not(.modal) {
   box-shadow: none !important;
 }
-
